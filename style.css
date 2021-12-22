@@ -1,0 +1,40 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-primary {
+  position: relative;
+  top: 20px;
+}
+
+.w-50 {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  padding-left: 50px;
+}
+
+.fa-edit:hover {
+  cursor: pointer;
+  border: 1px solid rgb(50, 117, 161);
+  border-radius: 50px;
+  color: rgb(50, 117, 161);
+}
+.fa-delete:hover {
+  cursor: pointer;
+  border: 1px solid red;
+  color: red;
+  border-radius: 50px;
+}
+
+.fa-delete {
+  position: relative;
+  left: 10px;
+}
+
+#reset {
+  position: relative;
+  left: 100px;
+  bottom: 17px;
+}
